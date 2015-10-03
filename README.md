@@ -1,9 +1,11 @@
-VelibFxos
-=========
+CitiBikeFxos
+============
 
-![Application Icon](https://raw.githubusercontent.com/Phyks/VelibFxos/design/img/icons/icon_256.png)
+**This project is a fork from [VelibFxos](https://github.com/Phyks/VelibFxos) intended to test the scalability of the project to other bike sharing systems.**
 
-VelibFxos is a Firefox OS app (and webapp) for the Velib bike sharing system in Paris. It can also be used as a webapp on any other mobile device, and will be packaged soon for other devices.
+![Application Icon](https://raw.githubusercontent.com/eliemichel/CitiBikeFxos/master/img/icons/icon_256.png)
+
+CitiBikeFxos is a Firefox OS app (and webapp) for the CitiBike bike sharing system in NYC. It can also be used as a webapp on any other mobile device, and will be packaged soon for other devices.
 
 
 # Getting started
