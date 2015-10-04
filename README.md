@@ -9,7 +9,7 @@ CitiBikeFxos
 
 ![Screenshot of Search on Manhattan](https://raw.githubusercontent.com/eliemichel/CitiBikeFxos/master/doc/screenshot-search.png)
 
-![Screenshot of Bikes on Brooklyn](https://raw.githubusercontent.com/eliemichel/CitiBikeFxos/master/doc/screenshot-bike.png)
+![Screenshot of Bikes on Brooklyn](https://raw.githubusercontent.com/eliemichel/CitiBikeFxos/master/doc/screenshot-bikes.png)
 
 
 # Original README
