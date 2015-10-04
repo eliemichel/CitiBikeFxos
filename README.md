@@ -3,6 +3,18 @@ CitiBikeFxos
 
 **This project is a fork from [VelibFxos](https://github.com/Phyks/VelibFxos) intended to test the scalability of the project to other bike sharing systems.**
 
+
+# New York related screenshots
+
+
+![Screenshot of Search on Manhattan](https://raw.githubusercontent.com/eliemichel/CitiBikeFxos/master/doc/screenshot-search.png)
+
+![Screenshot of Bikes on Brooklyn](https://raw.githubusercontent.com/eliemichel/CitiBikeFxos/master/doc/screenshot-bike.png)
+
+
+# Original README
+
+
 ![Application Icon](https://raw.githubusercontent.com/eliemichel/CitiBikeFxos/master/img/icons/icon_256.png)
 
 CitiBikeFxos is a Firefox OS app (and webapp) for the CitiBike bike sharing system in NYC. It can also be used as a webapp on any other mobile device, and will be packaged soon for other devices.
@@ -48,5 +60,6 @@ Special thanks for the following [contributors](https://github.com/Phyks/VelibFx
 ![Screenshot of index](https://raw.githubusercontent.com/Phyks/VelibFxos/design/doc/screenshot-index.png)
 
 ![Screenshot of starred stations](https://raw.githubusercontent.com/Phyks/VelibFxos/design/doc/screenshot-starred.png)
+
 
 
