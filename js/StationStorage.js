@@ -142,21 +142,21 @@ var AuthorityStationStorage = function() {
      */
     var stationContract = function(raw_station) {
         return {
-            address:         raw_station.address,
-            availableStands: raw_station.available_bike_stands,
-            availableBikes:  raw_station.available_bikes,
-            bikeStands:      raw_station.bike_stands,
-            banking:         raw_station.banking,
-            bonus:           raw_station.bonus,
-            contractName:    raw_station.contract_name,
-            lastUpdate:      raw_station.last_update,
-            name:            raw_station.name,
-            number:          raw_station.number,
+            address:         raw_station.stAddress1,
+            availableStands: raw_station.availableDocks,
+            availableBikes:  raw_station.availableBikes,
+            bikeStands:      raw_station.totalDocks,
+            banking:         "",
+            bonus:           raw_station.landMark,
+            contractName:    "",
+            lastUpdate:      "",
+            name:            raw_station.stationName,
+            number:          raw_station.id,
             position: {
-                latitude:    raw_station.position.lat,
-                longitude:   raw_station.position.lng
+                latitude:    raw_station.latitude,
+                longitude:   raw_station.longitude
             },
-            status:          raw_station.status
+            status:          raw_station.statusValue
         };
     };
 
@@ -166,9 +166,11 @@ var AuthorityStationStorage = function() {
      */
     api.load = function() {
         return new Promise(function(resolve, reject) {
+            var frame = document.getElementById("apiFrame");
             $.getJSON(Config.stationsUrl, function(data, status, jqXHR) {
                 // TODO: look at status
-                api.stations = data.map(stationContract);
+                var stations = JSON.parse(data.contents);
+                api.stations = stations.stationBeanList.map(stationContract);
                 api.emitOnLoad();
                 resolve(api);
             });
