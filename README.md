@@ -6,6 +6,7 @@ CitiBikeFxos
 
 # New York related screenshots
 
+![Screenshot of index](https://raw.githubusercontent.com/eliemichel/CitiBikeFxos/master/doc/screenshot-index.png)
 
 ![Screenshot of Search on Manhattan](https://raw.githubusercontent.com/eliemichel/CitiBikeFxos/master/doc/screenshot-search.png)
 
