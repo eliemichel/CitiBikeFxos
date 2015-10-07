@@ -71,6 +71,7 @@ main {
 }
 #app-logo {
     padding: 2em 0;
+    background-color: #005dab;
 }
 .station-info .entry {
     display: flex;
@@ -108,7 +109,7 @@ main {
 }
 .station-info .bikes,
 #app-bar.bikes {
-    background-color: #dc1681;
+    background-color: #eb1c24;
 }
 .station-info .bikes:hover,
 .station-info .stands:hover,
@@ -118,11 +119,11 @@ main {
 }
 .station-info .stands,
 #app-bar.stands {
-    background-color: #009bb7;
+    background-color: #0095d7;
 }
 .station-info .starred,
 #app-bar.starred {
-    background-color: #a54d93;
+    background-color: #003270;
 }
 #app-bar.station {
     background-color: #006FB3;
@@ -201,12 +202,12 @@ table.starred td.stations {
     font-size: 1.4em;
 }
 table.starred td.bikes {
-    color: #dc1681;
+    color: #eb1c24;
     font-size: 2.5em;
     text-align: center;
 }
 table.starred td.stands {
-    color: #009bb7;
+    color: #0095d7;
     font-size: 2.5em;
     text-align: center;
 }
@@ -262,7 +263,7 @@ table.starred tr:hover {
     font-size: 25px;
 }
 .detail p.bikes {
-    color: #dc1681;
+    color: #eb1c24;
 }
 .detail p.stands {
     color: #006FB3;
@@ -372,19 +373,19 @@ main.index {
 /* (context dependencies) */
 
 .bikes .station-map--frame {
-    border: 2px solid #DC1681;
+    border: 2px solid #eb1c24;
 }
 
 .bikes .station-map--availability {
-    color: #DC1681;
+    color: #eb1c24;
 }
 
 .stands .station-map--frame {
-    border: 2px solid #009BB7;
+    border: 2px solid #0095d7;
 }
 
 .stands .station-map--availability {
-    color: #009BB7;
+    color: #0095d7;
 }
 
 
@@ -468,7 +469,7 @@ section[role="region"] > header:first-child .icon-velib {
 
 section.skin-bikes[role="region"] > header:first-child,
 .skin-bikes > section[role="region"] > header:first-child {
-    background-color: #dc1681;
+    background-color: #eb1c24;
 }
 
 
@@ -478,7 +479,7 @@ section[role="region"] > header:first-child .icon-starred {
 
 section.skin-starred[role="region"] > header:first-child,
 .skin-starred > section[role="region"] > header:first-child {
-    background-color: #a54d93;
+    background-color: #003270;
 }
 
 
@@ -508,7 +509,7 @@ section[role="region"] > header:first-child .icon-stand {
 
 section.skin-stands[role="region"] > header:first-child,
 .skin-stands > section[role="region"] > header:first-child {
-    background-color: #009bb7;
+    background-color: #0095d7;
 }
 
 
@@ -533,7 +534,7 @@ section.skin-stands[role="region"] > header:first-child,
 }
 
 .skin-starred [data-type="list"] header {
-    color: #a54d93;
+    color: #003270;
 }
 
 [data-type="list"] header {
@@ -559,11 +560,11 @@ section.skin-stands[role="region"] > header:first-child,
 }
 
 [data-type="list"] aside.counter.bikes {
-    color: #dc1681;
+    color: #eb1c24;
 }
 
 [data-type="list"] aside.counter.stands {
-    color: #009bb7;;
+    color: #0095d7;;
 }
 
 
@@ -651,13 +652,13 @@ footer form input[type="image"] {
 /* (context dependencies) */
 
 .bikes footer a {
-    border-bottom: 0.5rem solid #dc1681;
+    border-bottom: 0.5rem solid #eb1c24;
 }
 .stands footer a {
-    border-bottom: 0.5rem solid #009bb7;
+    border-bottom: 0.5rem solid #0095d7;
 }
 .starred footer a {
-    border-bottom: 0.5rem solid #a54d93;
+    border-bottom: 0.5rem solid #003270;
 }
 .search footer div {
     border-bottom: 0.5rem solid #F7AD00;
